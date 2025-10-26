@@ -52,6 +52,10 @@ body {
     }
     #two{
         margin-bottom: 50px;
+        @media (max-width: 400px){
+            display: flex;
+            flex-direction: column-reverse;
+        }
     }
     .scrolled {
         padding: 10px;
