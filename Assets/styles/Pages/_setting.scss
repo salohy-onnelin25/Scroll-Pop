@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+$gray: rgb(207, 202, 202);
+$blue: rgb(29, 29, 236);
+$blue1: rgb(103, 103, 167);
+$black: black;
+$white: white;
+$green:rgb(7, 58, 7);
+
+@mixin background-img($url, $size: cover, $position: center, $repeat: no-repeat, $attachment: scroll) {
+    background-image: url(#{$url});
+    background-size: $size;
+    background-position: $position;
+    background-repeat: $repeat;
+    background-attachment: $attachment;
+}
+
+body {
+    background-color: $gray;
+    a {
+        text-decoration: none;
+        color: $black;
+        font-size: clamp(0.7rem, 1.8vw, 1.8rem);
+    }
+    h1 {
+        font-size: clamp(1.2rem, 3vw, 3rem);
+    }
+    h2 {
+        text-transform: uppercase;
+        font-size: clamp(1rem, 2vw, 2rem);
+    }
+    p{
+        font-size: clamp(0.7rem, 1.5vw, 1.5rem);
+    }
+    .Paragraphe {
+        margin-top: 20px;
+        &::first-letter {
+            color: $green; 
+            font-size: 3em; 
+            font-weight: bold; 
+            float: left; 
+            margin-right: 5px;
+        }
+    }
+    #first {
+        margin: 150px 0 50px 0;
+    }
+    #two{
+        margin-bottom: 50px;
+    }
+    .scrolled {
+        padding: 10px;
+    }
+}
