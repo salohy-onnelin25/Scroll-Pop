@@ -49,6 +49,9 @@ body {
     }
     #first {
         margin: 150px 0 50px 0;
+        @media (max-width: 400px){
+            margin: 150px 0 0 0;
+        }
     }
     #two{
         margin-bottom: 50px;
