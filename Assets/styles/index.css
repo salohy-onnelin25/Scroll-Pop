@@ -293,7 +293,7 @@ footer .Lorem {
   height: 400px;
   position: relative;
 }
-@media (max-width: 340px) {
+@media (max-width: 400px) {
   footer .Lorem {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -330,7 +330,7 @@ footer .Lorem .Image {
   left: 0;
   opacity: 0;
 }
-@media (max-width: 334px) {
+@media (max-width: 400px) {
   footer .Lorem .Image {
     display: none;
   }
