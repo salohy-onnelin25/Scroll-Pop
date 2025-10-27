@@ -101,7 +101,7 @@ header nav ul li a {
 }
 
 main {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 100px;
 }
@@ -184,7 +184,7 @@ main .Top .Bottom-left.is-visible {
 
 footer {
   background-color: rgb(103, 103, 167);
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   padding: 20px 0;
